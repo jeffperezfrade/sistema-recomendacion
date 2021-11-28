@@ -1,0 +1,29 @@
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+pre{
+    padding: 20px;
+}
+
+td{
+    padding: 10px;  
+}
+
+.resultado{
+    margin-left: 50px;
+}
+
+.contenedor{
+    padding: 50px;
+}
+
+.elecciones{
+    padding: 50px;
+}
+
+.form-control-file{
+    margin-bottom: 20px;
+}

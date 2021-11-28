@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- IMPORTANTE LAS DOS LINEAS DE ABAJO -->
+    <!-- BootStrap stuff -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <title>Sistema de Recomendación</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Sistema de Recomendación</h2>
+
+        <input class="form-control-file" type="file" id="file-input" />
+
+        <label class="form-check-label" for="cars">Selecciona una métrica:</label>
+            <select class="form-control" name="metrica" id="metrica">
+              <option value="pearson">Correlación de Pearson</option>
+              <option value="coseno">Distancia Coseno</option>
+              <option value="euclidea">Distancia Euclídea</option>
+            </select>
+
+        <label class="form-check-label" for="cars">Selecciona el tipo de predicción:</label>
+            <select class="form-control" name="prediccion" id="prediccion">
+              <option value="simple">Predicción Simple</option>
+              <option value="media">Diferencia con la media</option>
+            </select>
+
+        <label class="form-check-label" for="cars">Escribe un número de vecinos:</label>
+        <input class="form-control" value="3" placeholder="Ejemplo: 3" type="number" name="num-vecinos" id="num-vecinos">
+
+            <pre id="contenido-archivo"></pre> <!-- contenido del archivo -->
+            <button class="btn btn-primary" id="btn-ejecutar" onclick='ejecutar();'>Ejecutar</button>
+    </div>
+
+    <div class="resultado">
+    </div>
+
+    <div class="elecciones">
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
