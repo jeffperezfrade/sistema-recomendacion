@@ -49,6 +49,8 @@ Función para imprimir la matriz resultante:
 
 Ejemplo de Uso:
 
+Ejecutar el index.html con una extensión como por ejemplo Live Server de VSCode o cualquiera similar.
+
 La pantalla principal cuenta con un botón donde se debe elegir el archivo de texto contenedor de la matriz de utilidad.
 Una vez elegido el archivo se debe elegir una métrica y un tipo de predicción.
 Por ultimo elegir el número de vecinos con los que se tiene que comparar a un usuario.
