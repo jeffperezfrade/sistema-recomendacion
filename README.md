@@ -1,3 +1,5 @@
+**IMPORTANTE** Al cargar un archivo de texto con la matriz de utilidad, asegurarse que la matriz no cuente con espacios al final de cada fila.
+
 Descripción del código desarrollado:
 
 Este código esta desarollado en JavaScript, junto con HTML y CSS se le da forma a la pantalla principal.
