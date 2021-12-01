@@ -1,4 +1,4 @@
-**IMPORTANTE** Al cargar un archivo de texto con la matriz de utilidad, asegurarse que la matriz no cuente con espacios al final de cada fila.
+**IMPORTANTE:** Al cargar un archivo de texto con la matriz de utilidad, asegurarse que la matriz no cuente con espacios al final de cada fila.
 
 Descripción del código desarrollado:
 
