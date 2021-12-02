@@ -1,30 +1,30 @@
 **IMPORTANTE:** Al cargar un archivo de texto con la matriz de utilidad, asegurarse que la matriz no cuente con espacios al final de cada fila.
 
-Descripción del código desarrollado:
+## Descripción del código desarrollado:
 
 Este código esta desarollado en JavaScript, junto con HTML y CSS se le da forma a la pantalla principal.
 La parte más importante en esta ocasión se encuentra en JavaScript, donde se ha implementado un sistema de 
 recomendacion utilizando usuarios similares al usuario estudiado.
 
 El código se divide en varias funciones:
--> ejecutar(): Función principal la cual se ejecuta cuando le damos al botón de Ejecutar
--> leerArchivo(): Función para leer el archivo contenedor de la matriz de utilidad
--> mostrarContenido(): Muestra la matriz de utilidad leida del archivo anteriormente
+`ejecutar()`: Función principal la cual se ejecuta cuando le damos al botón de Ejecutar
+`leerArchivo()`: Función para leer el archivo contenedor de la matriz de utilidad
+`mostrarContenido()`: Muestra la matriz de utilidad leida del archivo anteriormente
 
 Funciones que devuelven el valor de la similitud entre dos usuarios:
--> correlacionPearson()
--> distanciaCoseno()
--> distanciaEuclidea()
+`correlacionPearson()`
+`distanciaCoseno()`
+`distanciaEuclidea()`
 
 Funciones que devuelven el valor de la predicción dependiendo de la métrica y el tipo de predicción elegida:
--> prediccionPearson()
--> prediccionCoseno()
--> prediccionEuclidea()
+`prediccionPearson()`
+`prediccionCoseno()`
+`prediccionEuclidea()`
 
 Funciones que devuelven la lista de vecinos más próximos por similitud:
--> odenarVecinosPearson()
--> ordenarVecinosCoseno()
--> ordenarVecinosEuclidea()
+`odenarVecinosPearson()`
+`ordenarVecinosCoseno()`
+`ordenarVecinosEuclidea()`
 --> Estas funciones devuelven un objeto ordenado por similitud, por ejemplo:
 {
     "vecino": 3,
@@ -37,19 +37,19 @@ Funciones que devuelven la lista de vecinos más próximos por similitud:
 
 
 Funciones que devuelven la media:
--> media(): Devuelve la media de un usuario.
--> mediaConjunta(): Devuelve la media de ambos usuarios pero sin contar aquellas posiciones donde se encuentra el guión (ya sea de un    usuario o de otro).
+`media()`: Devuelve la media de un usuario.
+`mediaConjunta()`: Devuelve la media de ambos usuarios pero sin contar aquellas posiciones donde se encuentra el guión (ya sea de un    usuario o de otro).
 
 Funcion para hacer la matriz de utilidad leida del fichero utilizable:
--> crearMatriz(): Devuelve la matriz estructurada en código JavaScript.
+`crearMatriz()`: Devuelve la matriz estructurada en código JavaScript.
 
 Función para imprimir la matriz resultante:
--> imprimirMatriz()
+`imprimirMatriz()`
 
 
 
 
-Ejemplo de Uso:
+## Ejemplo de Uso:
 
 Ejecutar el index.html con una extensión como por ejemplo Live Server de VSCode o cualquiera similar.
 
